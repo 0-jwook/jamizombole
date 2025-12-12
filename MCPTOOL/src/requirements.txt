@@ -1,0 +1,30 @@
+# FastAPI & Server
+fastapi>=0.104.1
+uvicorn[standard]>=0.24.0
+pydantic>=2.5.0
+pydantic-settings>=2.1.0
+
+# MCP Server
+mcp>=0.9.0
+httpx>=0.25.2
+
+# LangChain & LLM
+langchain>=0.1.0
+langchain-google-genai>=1.0.0
+langchain-community>=0.0.10
+
+# RAG & Vector DB
+chromadb>=0.4.18
+sentence-transformers>=2.2.2
+
+# Utilities
+python-dotenv>=1.0.0
+aiohttp>=3.9.1
+python-multipart>=0.0.6
+
+# Data processing
+requests>=2.31.0
+beautifulsoup4>=4.12.2
+lxml>=4.9.3
+sentence_transformers>=2.2.2
+

@@ -1,0 +1,10 @@
+[tool.pyright]
+venvPath = ".."
+venv = "mcp"
+pythonVersion = "3.13"
+extraPaths = ["."]
+typeCheckingMode = "basic"
+
+[tool.pylint]
+init-hook = "import sys; sys.path.insert(0, '.')"
+
