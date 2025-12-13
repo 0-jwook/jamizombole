@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a3d69e66-d0b4-4d7b-941b-1eafe26e9e3e" name="Changes" comment="&quot;feat :: 코스 추천" />
+    <list default="true" id="a3d69e66-d0b4-4d7b-941b-1eafe26e9e3e" name="Changes" comment="&quot;feat :: 코스 추천">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MCPTOOL/src/app/api/travel.py" beforeDir="false" afterPath="$PROJECT_DIR$/MCPTOOL/src/app/api/travel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MCPTOOL/src/app/llm/chain.py" beforeDir="false" afterPath="$PROJECT_DIR$/MCPTOOL/src/app/llm/chain.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,6 +48,7 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "preferences.keymap",
+    "ts.external.directory.path": "/Users/gongjaeug/PycharmProjects/MCP-Project/jamijombole-web/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -80,6 +85,11 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/jamijombole-web/next.config.mjs" />
+      </list>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="&quot;feat :: 코스 추천" />

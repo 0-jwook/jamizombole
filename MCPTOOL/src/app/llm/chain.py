@@ -12,6 +12,8 @@ import google.generativeai as genai
 class CourseItem(BaseModel):
     name: str = Field(description="장소명")
     description: str = Field(description="간단한 설명")
+    address: str = Field(description="주소")
+    type: str = Field(description="장소 유형 (예: 관광지, 식당, 카페)")
     time: str = Field(description="예상 소요 시간 (예: 1시간, 30분)")
 
 
@@ -40,8 +42,9 @@ class CourseGenerator:
 2. 제공된 여행지 정보를 활용
 3. 이동 시간, 체류 시간 현실적으로 반영
 4. 코스는 최소 2개, 최대 6개
-5. 반드시 course와 summary 필드를 모두 포함해야 함
-6. JSON만 출력 (추가 설명 금지)
+5. 전체 코스의 총 소요시간은 5시간 내외로 구성
+6. 반드시 course와 summary 필드를 모두 포함해야 함
+7. JSON만 출력 (추가 설명 금지)
 
 출력 형식:
 {{
@@ -49,10 +52,12 @@ class CourseGenerator:
     {{
       "name": "장소명",
       "description": "간단한 설명",
+      "address": "주소",
+      "type": "장소 유형",
       "time": "1시간"
     }}
   ],
-  "summary": "이 코스는 OO의 주요 명소를 OO시간 동안 둘러보는 코스입니다."
+  "summary": "이 코스는 OO의 주요 명소를 5시간 동안 둘러보는 코스입니다."
 }}
 
 사용자 요청:

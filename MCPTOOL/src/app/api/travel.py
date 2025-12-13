@@ -80,7 +80,7 @@ async def recommend_course(request: RecommendRequest):
         # 1. 쿼리에서 필터 조건 추출
         filters = extract_filters_from_query(request.query)
         
-        # 2. 쿼리에서 지역과 키워드 추출 (간단한 휴리스틱)
+        #2. 쿼리에서 지역과 키워드 추출 (간단한 휴리스틱)
         region = None
         keyword = None
         
